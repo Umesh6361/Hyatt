@@ -68,10 +68,21 @@ font-size:0.9rem;
 font-weight:200;
 text-align:center;
 }
+.btn-click{
+    color:var(--base);
+    background:none;
+    border-style:none;
+    text-transform:uppercase;
+    letter-spacing:0.1rem;
+}
 footer{
     background:var(--dark);
     color:var(--primary);
     text-align:center;
+}
+.features{
+    display:none;
+    padding:20px 30px;
 }
 @media only screen and (max-width: 600px) {
     .none {
