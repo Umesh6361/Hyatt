@@ -84,6 +84,18 @@ footer{
     display:none;
     padding:20px 30px;
 }
+.click_btn_design{
+    padding:20px 0;
+}
+button.click_btn{
+    background:var(--secondary);
+    text-transform:uppercase;
+    border-style: none;
+    width:150px;
+    height:30px;
+    font-size:0.8rem;
+    font-weight:400;
+}
 @media only screen and (max-width: 600px) {
     .none {
         background:red;   
@@ -91,5 +103,8 @@ footer{
     }
     ul.list-tab{
         font-size:0.8rem;
+    }
+    button.click_btn{
+        width:100%;
     }
   }

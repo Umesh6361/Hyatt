@@ -9,6 +9,6 @@
             divlist.style.display='block'
             toggle.innerHTML="amenities &#x2193;" 
         }
-    })
+    });
     
 
